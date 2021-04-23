@@ -1,0 +1,153 @@
+@media screen and (max-width: 1200px) {
+    /* ===================phần bottom header================= */
+    div#bottom-header .navbar-side {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    div#bottom-header li {
+        border-bottom: solid 1px black;
+    }
+    div#bottom-header .dropdown-menu {
+        transition: all 0.5s !important;
+    }
+    .dropdown-menu {
+        margin: 0 !important;
+    }
+    .search-link {
+        display: block;
+        padding: 0;
+        padding-top: 5px;
+        margin-left: 10px;
+    }
+    .number-product {
+        position: absolute;
+        top: 7px;
+        right: -6px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    /* ==========RESPONSIVE OF CATEGORY PATCH========== */
+    div.sub-cate-hover span {
+        font-size: 120%;
+    }
+    /* ================RESPONSIVE ABOUT PATCH=================== */
+    div#about h5 {
+        font-size: 20px;
+    }
+    div#about div.list-category-side {
+        display: none;
+    }
+    /* =========header patch======== */
+    #top-header {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .number-product {
+        position: absolute;
+        top: 7px;
+        right: -17px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    /* ===================responsive cho cái banner==================== */
+    .sale-title {
+        font-size: 25px;
+    }
+    .sale-product {
+        font-size: 35px;
+    }
+    .sale-info {
+        display: none;
+    }
+    .click-buy {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* ==============policy patch=============== */
+    #more-policy {
+        display: none;
+    }
+    /* ==============product patch============== */
+    .product-info .rate {
+        display: none;
+    }
+    .product-name {
+        font-size: 15px;
+    }
+    .price {
+        font-size: 13px;
+    }
+    /* =============blog patch============ */
+    .blog-date,
+    .blog-demo,
+    .blog-cate {
+        display: none;
+    }
+    .blog-title {
+        font-size: 15px;
+    }
+    .see-more-btn {
+        font-size: 15px;
+        padding: 10px 20px!important;
+        margin-top: 0 !important;
+    }
+    .card-body {
+        margin-top: 0.4rem !important;
+        padding: 0.25rem !important;
+    }
+    /* copy right */
+    #copy-right i,
+    p {
+        font-size: 13;
+    }
+    .number-product {
+        position: absolute;
+        top: 7px;
+        right: -27px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .div-group {
+        padding-left: 0 !important;
+    }
+    .div-group i {
+        font-size: 18px;
+    }
+    .number-product span {
+        font-size: 12px;
+    }
+    .number-product {
+        width: 17px;
+        height: 17px;
+        position: absolute;
+        top: 7px;
+        right: -10px;
+    }
+    /* ===================responsive cho cái banner==================== */
+    .sale-title {
+        font-size: 15px !important;
+    }
+    .sale-product {
+        font-size: 25px;
+    }
+    .sale-info {
+        display: none;
+    }
+    .click-buy {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* ==========RESPONSIVE OF CATEGORY PATCH========== */
+    div.sub-cate-hover .clothes {
+        font-size: 100%;
+    }
+}
