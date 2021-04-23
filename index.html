@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="plugins/src/css/reset.css">
+    <link rel="stylesheet" href="plugins/src/css/main.css">
+    <link rel="stylesheet" href="plugins/font/css/all.css">
+    <link rel="stylesheet" href="plugins/src/OwlCarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/src/OwlCarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="plugins/src/responsive/responsive.css">
+    <title>Đồ án Bootstrap AZ Unitop newspaper</title>
+</head>
+
+<body>
+    <div id="header" class="w-100 bg-custom-black">
+        <div id="top-header" class="text-light ">
+            <div class="container pt-2">
+                <div class="col-md-12 border-bottom-grey pb-1">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <i class="far fa-clock"></i>
+                            <span>月曜日 - 土曜日: 8:00am - 20:00am</span>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <i class="far fa-envelope"></i>
+                            <span>giangtra92@gmail.com</span>
+                        </div>
+                        <div class="col-md-4 text-right">
+                            <i class="fas fa-phone-alt"></i>
+                            <span>080 8424 8599</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="bottom-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 bg-custom-black">
+                        <div class="navbar-side pt-2">
+                            <nav class="navbar navbar-expand-xl bg-custom-black p-0 w-80">
+                                <a class="navbar-brand" href="#"><img src="plugins/img/logo.png" alt="" class="float-left mx-2"></a>
+
+                                <button class="navbar-toggler mr-3" type="button">
+                                  <span"><i class="fas fa-align-justify text-light"></i></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse" id="nav-menu">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link text-uppercase" href="#">ホーム</a>
+                                        </li>
+                                        <li class="nav-item text-uppercase">
+                                            <a class="nav-link" href="#">About</a>
+                                        </li>
+                                        <li class="nav-item dropdown dropdown-flag">
+                                            <a class="nav-link dropdown-toggle text-uppercase" href="#" data-toggle="dropdown">スニーカー</a>
+                                            <div class="dropdown-menu dropdown-action pt-0 mt-0" aria-labelledby="dropdown-bag">
+                                                <a class="dropdown-item hover" href="#">スニーカー</a>
+                                                <a class="dropdown-item hover" href="#">サンダル</a>
+                                                <a class="dropdown-item hover" href="#">テニスシューズ</a>
+                                                <a class="dropdown-item hover" href="#">スリッポン</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown dropdown-flag">
+                                            <a class="nav-link dropdown-toggle text-uppercase" href="#" data-toggle="dropdown">バッグ</a>
+                                            <div class="dropdown-menu dropdown-action pt-0 mt-0" aria-labelledby="dropdown-bag">
+                                                <a class="dropdown-item hover" href="#">レザー</a>
+                                                <a class="dropdown-item hover" href="#">ショルダーバッグ</a>
+                                                <a class="dropdown-item hover" href="#">トートバッグ</a>
+                                                <a class="dropdown-item hover" href="#">ミニバッグ</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link text-uppercase" href="#" data-toggle="dropdown">シャツ</a>
+                                        </li>
+                                        <li class="nav-item dropdown dropdown-flag">
+                                            <a class="nav-link dropdown-toggle text-uppercase" href="#" data-toggle="dropdown">時計</a>
+                                            <div class="dropdown-menu dropdown-action pt-0 mt-0" aria-labelledby="dropdown-bag">
+                                                <a class="dropdown-item hover" href="#">レディース時計</a>
+                                                <a class="dropdown-item hover" href="#">メンズ時計</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item text-uppercase">
+                                            <a class="nav-link" href="#">Blog</a>
+                                        </li>
+                                        <li class="nav-item text-uppercase">
+                                            <a class="nav-link" href="#">Contact</a>
+                                        </li>
+                                    </ul>
+                                    <a class="search-link text-light hover" href="#"><i class="fas fa-search px-0"></i></a>
+                                </div>
+                            </nav>
+
+                        </div>
+                        <div class="div-group float-left pl-cus-2">
+                            <a class="float-left px-0 text-light hover" href="#"><i class="fas fa-cart-plus"></i></a>
+                            <div class="number-product bg-danger text-light float-left">
+                                <span>2</span>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- end header -->
+
+    <div id="wrapper">
+        <div id="banner w-100 ">
+            <div id="home-silde" class="carousel slide carousel-fade " data-ride="carousel">
+                <!-- Thanh indicator ( thanh đổi vị trí ) -->
+                <ol class="carousel-indicators">
+                    <li class="active" data-target="#home-silde" data-slide-to="0"></li>
+                    <li data-target="#home-silde" data-slide-to="1"></li>
+                    <li data-target="#home-silde" data-slide-to="2"></li>
+                </ol>
+
+                <!-- bắt đầu cái phần carousel -->
+                <div class="carousel-inner">
+
+                    <!-- Cái thuộc tính data interval dùng để điều khiển thời gian chuyển slide
+                                - tính theo ms; 1s = 1000ms
+                         -->
+                    <div class="carousel-item active box-parent" data-interval="5000">
+                        <img src="plugins/img/banner/slider-1.jpg" class="w-100 d-block" alt="">
+                        <div class="text-center box-child banner-caption">
+                            <h5 class="text-capitalize text-dark sale-title">セール 50%</h5>
+                            <h2 class="text-uppercase text-orange font-weight-bold sale-product">韓国語セーター</h2>
+                            <p class="text-dark sale-info font-sz-25">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, tempora voluptates. In earum esse excepturi provident ut odio error quos?</p>
+                            <button class="btn btn-dark text-capitalize click-buy">Buy</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item  box-parent" data-interval="5000">
+                        <img src="plugins/img/banner/slider-2.jpg" class="w-100 d-block" alt="">
+                        <div class="text-center box-child banner-caption">
+                            <h5 class="text-capitalize text-light sale-title">セール 50%</h5>
+                            <h2 class="text-uppercase text-orange font-weight-bold sale-product">韓国語セーター</h2>
+                            <p class="text-light sale-info font-sz-25">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, tempora voluptates. In earum esse excepturi provident ut odio error quos?</p>
+                            <button class="btn btn-dark text-capitalize click-buy">Buy</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item  box-parent" data-interval="5000">
+                        <img src="plugins/img/banner/slider-3.jpg" class="w-100 d-block" alt="">
+                        <div class="text-center box-child banner-caption">
+                            <h5 class="text-capitalize text-light sale-title">セール 50%</h5>
+                            <h2 class="text-uppercase text-orange font-weight-bold sale-product">韓国語セーター</h2>
+                            <p class="text-light sale-info font-sz-25">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, tempora voluptates. In earum esse excepturi provident ut odio error quos?</p>
+                            <button class="btn btn-dark text-capitalize click-buy">Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- end carousel inner -->
+
+                <!-- Tạo nút prev và nút next -->
+                <a href="#home-silde" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon hover"></span>
+                </a>
+                <a href="#home-silde" class="carousel-control-next " data-slide="next">
+                    <span class="carousel-control-next-icon hover"></span>
+                </a>
+                <!-- end control button -->
+            </div>
+
+
+            <div class="container sub-side mx-auto " id="side-sub">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="sub-nav-side">
+                            <div class=" sub-nav bg-custom-black p-0 m-0">
+                                <ul class="list-sub-nav">
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link text-uppercase">ホーム</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link text-uppercase">About</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link dropdown-toggle text-uppercase collapsed" href="#" data-toggle="collapse" data-target="#collapse-shoes" aria-expanded="false">giày</a>
+                                        <div id="collapse-shoes" class="shoes-collapse collapse bg-collapse-menu " data-parent="#side-sub">
+                                            <a class="dropdown-item dropdown-item-nav hover border-cus" href="#">スニーカー</a>
+                                            <a class="dropdown-item  dropdown-item-nav hover border-cus" href="#">サンダル</a>
+                                            <a class="dropdown-item  dropdown-item-nav hover border-cus" href="#">テニスシューズ</a>
+                                            <a class="dropdown-item  dropdown-item-nav hover border-cus" href="#">スリッポン</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-uppercase" href="#" id="dropdown-bag" data-toggle="collapse" data-target="#bag-collapse">túi xách</a>
+                                        <div id="bag-collapse" class="collapse bg-collapse-menu" data-parent="#side-sub">
+                                            <a class="dropdown-item  dropdown-item-nav hover border-cus" href="#">レザー</a>
+                                            <a class="dropdown-item  dropdown-item-nav border-cus" href="#">ショルダーバッグ</a>
+                                            <a class="dropdown-item dropdown-item-nav border-cus" href="#">トートバッグ</a>
+                                            <a class="dropdown-item dropdown-item-nav border-cus" href="#">ミニバッグ</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link text-uppercase" href="#" id="dropdown-bag" data-toggle="dropdown">シャツ</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-uppercase" href="#" id="dropdown-bag" data-toggle="collapse" data-target="#clock-collapse">đồng hồ</a>
+                                        <div id="clock-collapse" class="collapse bg-collapse-menu" data-parent="#side-sub">
+                                            <a class="dropdown-item dropdown-item-nav border-cus" href="#">レディース時計</a>
+                                            <a class="dropdown-item dropdown-item-nav border-cus" href="#">メンズ時計</a>
+                                        </div>
+                                    </li>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link text-uppercase">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link text-uppercase">Contact</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class=" nav-link hover" href="#"><i class="fas fa-search px-0"></i></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- end banner -->
+
+        <div id="more-policy">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-4 ">
+                            <div class="my-5 text-center background-custom-grey">
+                                <a href="" class="policy-link text-secondary">
+                                    <i class="fas fa-shield-alt policy-icon mt-3"></i>
+                                    <p class="policy-content pb-3 font-weight-bold">30日以内返品可能</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="my-5 text-center background-custom-grey">
+                                <a href="" class="policy-link text-secondary">
+                                    <i class="fas fa-headphones policy-icon mt-3"></i>
+                                    <p class="policy-content pb-3 font-weight-bold">サポート24/7  080-8424-8599</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="my-5 text-center background-custom-grey">
+                                <a href="" class="policy-link text-secondary">
+                                    <i class="fas fa-truck policy-icon mt-3"></i>
+                                    <p class="policy-content pb-3 font-weight-bold">送料無料</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end policy -->
+
+        <div id="new-product ">
+            <div class="container pb-3">
+                <h3 class="text-center mt-5">Product</h3>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-4 col-6">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-1.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                DURAMO 9 K
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-6">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-2.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                YEEZY 
+                                </a>
+                                    <h4 class="text-secondary price">¥4,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-6">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-3.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                スーパースター
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-6">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-4.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                スタンスミス
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-6">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-5.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                ハンブルク
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-6">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-6.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                コアレーサー
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-6">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-7.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                サンタンミス
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4 col-6">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-8.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                オリジナル
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end new product -->
+
+        <div id="category  ">
+            <div class="container">
+                <div class="col-md-12 py-5">
+                    <div class="row">
+                        <div class="col-md-6 category-shoes no-gutters p-0">
+                            <img src="plugins/img/category/category-1.jpg" alt="" class="img-fluid">
+                            <div class="col-5 category-shoes-hover text-center mb-3 mr-3">
+                                <span class="text-uppercase text-center font-weight-bold m-0">スニーカー</span>
+                                <button class="btn btn-dark text-center px-2 cate-button">商品一覧を見る</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 no-gutters p-0">
+                            <div class="sub-cate">
+                                <img src="plugins/img/category/category-2.jpg" alt="" class="img-fluid">
+                                <div class="col-lg-6 col-md-8 col-6 text-center mb-3  sub-cate-hover">
+                                    <span class="text-uppercase text-center font-weight-bold m-0">時計</span>
+                                    <button class="btn btn-dark text-center px-2 cate-button">商品一覧を見る</button>
+                                </div>
+                            </div>
+                            <div class="sub-cate">
+                                <img src="plugins/img/category/category-3.jpg" alt="" class="img-fluid">
+                                <div class="col-lg-6 col-md-8 col-6 text-center mb-3  sub-cate-hover">
+                                    <span class="text-uppercase text-center font-weight-bold m-0 clothes">トップス</span>
+                                    <button class="btn btn-dark text-center px-2 cate-button">商品一覧を見る</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end category -->
+
+        <div id="hot-sale ">
+
+            <div class="container">
+                <div class="col-md-12">
+                    <h3 class="text-uppercase text-center pt-3">ベストセール</h3>
+                    <div class=" owl-carousel owl-theme">
+                        <div class="feature-item">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-1.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                バッグ
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-2.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                スニーカー
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-3.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                時計
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-4.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 nhận xét)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                コート
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-5.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                スカート
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-6.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                シャツ
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-7.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                ジャケット
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-8.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                ジーンズ
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-9.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                サンクラス
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-10.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                               ショート
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-11.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                トレンチコート
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="product border">
+                                <div class="product-thump">
+                                    <a href=""><img src="plugins/img/product/sp-12.jpg" alt="" class="card-img img-fluid"></a>
+                                </div>
+                                <div class="product-info m-2 text-center ">
+                                    <div class="rate mt-2">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <h5 class="text-muted">(8 件)</h5>
+                                    </div>
+                                    <a href="" class="text-secondary font-weight-bold product-name d-block my-2">
+                                サンクラス
+                                </a>
+                                    <h4 class="text-secondary price">¥3,842(税込)</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- end hot sale -->
+
+        <div id="blog ">
+            <div class="container">
+                <div class="col-md-12">
+                    <h3 class="text-uppercase text-center pt-5">SHARE</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <div class="row">
+                        <div class="col-4  blog">
+                            <div class="card">
+                                <div class="card-img">
+                                    <a href=""><img src="plugins/img/blog/post-1.jpg" alt="" class="img-fluid"></a>
+                                </div>
+                                <div class="card-body pt-2">
+                                    <p class="text-center text-muted mb-2 blog-cate">ファッション</p>
+                                    <a href="" class="text-dark text-decoration-none blog-title-link">
+                                        <h6 class="text-uppercase text-center font-weight-bold blog-title">Lorem ipsum dolor sit amet.</h6>
+                                    </a>
+                                    <h6 class="text-center text-muted blog-date">June 10, 2020</h6>
+                                    <p class="text-center blog-demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ipsa aperiam id optio minus fuga!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 blog">
+                            <div class="card">
+                                <div class="card-img">
+                                    <a href=""><img src="plugins/img/blog/post-2.jpg" alt="" class="img-fluid"></a>
+                                </div>
+                                <div class="card-body pt-2">
+                                    <p class="text-center text-muted mb-2 blog-cate">ファッション</p>
+                                    <a href="" class="text-dark text-decoration-none blog-title-link">
+                                        <h6 class="text-uppercase text-center font-weight-bold blog-title">Lorem ipsum dolor sit amet.</h6>
+                                    </a>
+                                    <h6 class="text-center text-muted blog-date">June 10, 2020</h6>
+                                    <p class="text-center blog-demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur doloribus beatae sed eaque obcaecati eligendi!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 blog">
+                            <div class="card">
+                                <div class="card-img">
+                                    <a href=""><img src="plugins/img/blog/post-3.jpg" alt="" class="img-fluid"></a>
+                                </div>
+                                <div class="card-body pt-2">
+                                    <p class="text-center text-muted mb-2 blog-cate">ファッション</p>
+                                    <a href="" class="text-dark text-decoration-none blog-title-link">
+                                        <h6 class="text-uppercase text-center font-weight-bold blog-title">Lorem ipsum dolor sit amet.</h6>
+                                    </a>
+                                    <h6 class="text-center text-muted blog-date">June 10, 2020</h6>
+                                    <p class="text-center blog-demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quis deserunt atque provident tempora numquam?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-4 text-center mx-auto my-4 btn-side">
+                        <button class="btn px-5 mx-auto my-4 see-more-btn">More than</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end blog -->
+    </div>
+
+    <div id="footer">
+        <div id="about" class=" w-100 bg-custom-semiblack">
+            <div class="container py-3">
+                <div class="col-md-12 no-gutters">
+                    <div class="about-content mx-auto">
+                        <div class="row pt-3">
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <h5 class="text-uppercase text-danger font-weight-bold my-3">住所</h5>
+                                <ul class="place list-type-style-none">
+                                    <li class="list-place pb-1">
+                                        <i class="fas fa-map-marker-alt text-light line-height-2"></i>
+                                        <span class="text-light">東京都江戸川区西葛西7−21−２０恩田コーポ202</span>
+                                    </li>
+                                    <li class="pb-1">
+                                        <i class="fas fa-phone-alt text-light"> </i>
+                                        <span class="text-light">080−8424−8599</span>
+                                    </li>
+                                    <li>
+                                        <i class="far fa-envelope text-light"> </i>
+                                        <span class="text-light">giangtra92@gmail.com</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-3 col-md-4 col-6 about-side">
+                                <h5 class="text-uppercase text-danger font-weight-bold my-3">プレゼンテーション</h5>
+                                <ul class="about">
+                                    <li class="pb-1">
+                                        <a href="" class="text-light text-decoration-none"> <span class="hover">About</span> </a>
+                                    </li>
+                                    <li class="pb-1">
+                                        <a href="" class="text-light text-decoration-none "><span class="hover">ショッピングガイド</span></a>
+                                    </li>
+                                    <li class="pb-1">
+                                        <a href="" class="text-light text-decoration-none "><span class="hover">ストアサービス</span></a>
+                                    </li>
+                                    <li class="">
+                                        <a href="" class="text-light text-decoration-none"><span class="hover">サポート</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-2 list-category-side">
+                                <h5 class="text-uppercase text-danger font-weight-bold my-3">ブランド</h5>
+                                <ul class="list-category">
+                                    <li class="pb-1">
+                                        <a href="" class="text-light text-decoration-none"><span class="hover"> スニーカー</span></a>
+                                    </li>
+                                    <li class="pb-1">
+                                        <a href="" class="text-light text-decoration-none"><span class="hover">スカート</span></a>
+                                    </li>
+                                    <li class="pb-1">
+                                        <a href="" class="text-light text-decoration-none"><span class="hover">サンクラス</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="text-light text-decoration-none"><span class="hover">バッグ</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-2 col-md-4 col-6">
+                                <h5 class="text-uppercase text-danger font-weight-bold my-3">ソーシャル</h5>
+
+                                <ul class="list-social">
+                                    <li class="social-item pb-1">
+                                        <a href="" class="text-decoration-none hover">
+                                            <i class="fab fa-facebook-f text-light "> </i>
+                                            <span class="text-light">Facebook</span>
+                                        </a>
+                                    </li>
+                                    <li class="social-item pb-1">
+                                        <a href="">
+                                            <i class="fab fa-youtube text-light text-decoration-none hover"> </i>
+                                            <span class="text-light">Youtube</span>
+                                        </a>
+                                    </li>
+                                    <li class="social-item">
+                                        <a href=""><i class="fab fa-twitter text-light text-decoration-none hover"> </i> 
+                                        <span class="text-light">Twitter</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end about -->
+
+        <div id="copy-right" class=" w-100 bg-custom-danger text-center py-2 ">
+            <i class="far fa-copyright text-light mt3"></i>
+            <p class="text-light text-uppercase d-inline">giang-unitop@gmail.com</p>
+        </div>
+    </div>
+    <!-- end copy right -->
+
+    <script src="plugins/src/js/jquery-3.5.1.js "></script>
+    <script src="plugins/src/js/nav.js "></script>
+    <script src="plugins/src/OwlCarousel/owl.carousel.min.js"></script>
+    <script src="plugins/src/js/popper.js "></script>
+    <script src="plugins/bootstrap/js/bootstrap.js "></script>
+    <script src="plugins/src/js/main.js "></script>
+    <script src="plugins/src/js/owl-carousel.js "></script>
+
+</body>
+
+</html>
